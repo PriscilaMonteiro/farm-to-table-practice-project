@@ -75,7 +75,6 @@ header nav{
     display:flex;
     align-items: center;
     justify-content: center;
-
 }
 /*Farm Section Styles*/
 .container{
@@ -92,4 +91,12 @@ header nav{
 .box h3{
     margin: 15% 0;
 }
-
+/* blank section styles */
+.hero-image{
+    height: 40vh;
+    background-image: url('../images/dirt.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
