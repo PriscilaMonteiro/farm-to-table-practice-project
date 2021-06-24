@@ -117,3 +117,39 @@ header nav{
 .text p{
     text-align: left;
 }
+/* gallery section styles */
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery div{
+    width: 40%;
+    height: 40vh;
+    margin: 4% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+}
+.gallery div .hide{
+    height: 10vh;
+    background-color: #fff;
+    display:none;
+}
+.gallery div:hover .hide{
+    display:block;
+}
+.farm{
+    background-image: url('../images/barn.jpg');
+}
+.cook{
+    background-image: url('../images/cook.jpg');
+}
+.produce{
+    background-image: url('../images/produce.jpg')
+}
+.animals{
+    background-image: url('../images/sheep.jpg')
+}
